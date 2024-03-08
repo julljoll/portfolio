@@ -1,0 +1,46 @@
+<!------------------------------------------------header----------logo-----------navbar------------->
+
+<header id="container_header">
+  <div id:"logo">
+    <a href="/">
+      <img src="/logonav.svg" />
+    </a>
+  </div>
+
+  <nav id="container_nav-links">
+    <a href="/">Inicio</a>
+    <a href="about">Sobre Mi</a>
+    <a href="blog">Blog</a>
+    <a href="https://wa.link/9ubxqu">Contacto</a>
+  </nav>
+</header>
+
+<!---------------------------------------------------CSS------------------------------------------->
+
+<style>
+  #container_header {
+    display: flex;
+    position: fixed;
+    z-index:auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    background: #154d3f;
+  }
+
+  #container_nav-links, a {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  #container_nav-links a:hover,
+  :focus {
+    color: #65ba93;
+  }
+</style>
